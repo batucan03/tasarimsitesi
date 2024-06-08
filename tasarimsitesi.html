@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasarımcı Hizmetleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 2em;
+        }
+        .service {
+            width: 30%;
+            margin-bottom: 2em;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+        }
+        .service img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .contact {
+            margin-top: 3em;
+        }
+        .contact img {
+            width: 50px;
+            margin-bottom: 1em;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tasarımcı Hizmetleri</h1>
+    </header>
+    <section class="services">
+        <div class="service">
+            <h2>Logo Tasarımı</h2>
+            <img src="logo.jpg" alt="Logo Tasarımı">
+            <p>Kurumsal kimliğinizi yansıtan benzersiz logolar oluşturuyoruz.</p>
+        </div>
+        <div class="service">
+            <h2>Afiş/Banner Tasarımı</h2>
+            <img src="banner.jpg" alt="Afiş/Banner Tasarımı">
+            <p>Etkileyici afişler ve bannerlar tasarlayarak markanızı tanıtın.</p>
+        </div>
+        <div class="service">
+            <h2>Sosyal Medya Gönderisi Tasarımı</h2>
+            <img src="social_media.jpg" alt="Sosyal Medya Gönderisi Tasarımı">
+            <p>Instagram, Facebook, Twitter gibi platformlarda paylaşmak için dikkat çekici gönderiler oluşturuyoruz.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Bize Ulaşın</h2>
+        <a href="https://t.me/batu03" target="_blank" rel="noopener">
+            <img src="telegram.png" alt="Telegram">
+        </a>
+        <p>Satın almak veya daha fazla bilgi almak için bize Telegram üzerinden ulaşabilirsiniz.</p>
+    </section>
+    <footer>
+        <p>Telif Hakkı © 2024 Tasarımcı Hizmetleri</p>
+    </footer>
+</body>
+</html>
